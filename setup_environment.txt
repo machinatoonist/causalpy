@@ -1,0 +1,7 @@
+mamba create -c conda-forge -n pymc_env "pymc>=5"
+mamba  activate pymc_env
+mamba install jupyterlab
+mamba install daft
+mamba install seaborn
+python -m ipykernel install --user --name=pymc_env  
+mamba install -c conda-forge nutpie  
